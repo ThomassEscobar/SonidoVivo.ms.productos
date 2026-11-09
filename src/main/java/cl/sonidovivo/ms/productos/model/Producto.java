@@ -23,12 +23,16 @@ public class Producto {
     private String titulo;
 
     private String descripcion;
-    
+
     @Column (nullable = false)
     private Double precio;
 
     private String categoria;
 
     private String imagen;
+
+    private String marca;
+    
+    private String stock;
 
 }
